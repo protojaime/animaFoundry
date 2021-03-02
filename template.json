@@ -1,0 +1,70 @@
+{
+  "Actor": {
+    "types": ["character"],
+    "templates": {
+      "base": {
+        "health": {
+          "value": 10,
+          "min": 0,
+          "max": 10
+        },
+        "shield": {
+          "value": 5,
+          "min": 0,
+          "max": 5
+        },
+         "initiative": {
+          "value": 20
+        }
+      }
+    },
+    "character": {
+      "templates": ["base"],
+      "biography": "",
+      "attributes": {
+        "level": {
+          "value": 1
+        }
+      },
+      "abilities": {
+        "str": {
+          "min": 0,
+          "value": 10
+        },
+        "dex": {
+          "min": 0,
+          "value": 10
+        },
+        "con": {
+          "min": 0,
+          "value": 10
+        },
+        "int": {
+          "min": 0,
+          "value": 10
+        },
+        "wis": {
+          "min": 0,
+          "value": 10
+        },
+        "cha": {
+          "min": 0,
+          "value": 10
+        }
+      }
+    }
+  },
+  "Item": {
+    "types": ["item"],
+    "templates": {
+      "base": {
+        "description": ""
+      }
+    },
+    "item": {
+      "templates": ["base"],
+      "quantity": 1,
+      "weight": 0
+    }
+  }
+}

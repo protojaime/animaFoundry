@@ -1,0 +1,30 @@
+{
+  "name": "animaFoundry",
+  "title": "Anima: Beyond Fantasy",
+  "description": "The Anima: Beyond Fantasy system for FoundryVTT!",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "0.7.9",
+  "templateVersion": 2,
+  "author": "J",
+  "esmodules": ["module/animaFoundry.js"],
+  "styles": ["css/animaFoundry.css"],
+  "scripts": [],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "initiative": "1d100x>=90+@initiative",
+  "gridDistance": 1,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "shield",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "license": "LICENSE"
+}
