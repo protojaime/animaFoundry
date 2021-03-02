@@ -13,6 +13,21 @@
           "min": 0,
           "max": 5
         },
+        
+        "stamina": {
+          "value": 5,
+          "min": 0
+        },
+        "ki": {
+          "value": 5,
+          "min": 0,
+          "max": 5
+        }, 
+        "zeon": {
+          "value": 5,
+          "min": 0,
+          "max": 5
+        },
          "initiative": {
           "value": 20
         }
@@ -27,30 +42,38 @@
         }
       },
       "abilities": {
-        "str": {
+        "agi": {
           "min": 0,
-          "value": 10
-        },
-        "dex": {
-          "min": 0,
-          "value": 10
+          "value": 5
         },
         "con": {
           "min": 0,
-          "value": 10
+          "value": 5
         },
+        "dex": {
+          "min": 0,
+          "value": 5
+       },
+        "str": {
+          "min": 0,
+          "value": 5
+        },     
         "int": {
           "min": 0,
-          "value": 10
+          "value": 5
         },
-        "wis": {
+        "per": {
           "min": 0,
-          "value": 10
+          "value": 5
         },
-        "cha": {
+        "pod": {
           "min": 0,
-          "value": 10
-        }
+          "value": 5
+        },
+        "vol": {
+          "min": 0,
+          "value": 5
+        }  
       }
     }
   },
